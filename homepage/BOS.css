@@ -1,0 +1,45 @@
+html {
+  body {
+  margin: 0;
+  min-height: 100vh;
+  /* background-image: url('../imgs/circular-ruins.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+}
+
+.image img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: left;
+   font-family: monospace;
+   font-style: normal;
+   font-weight: lighter;
+   padding: 20%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
